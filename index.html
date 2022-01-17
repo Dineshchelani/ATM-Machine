@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+    <title>ATM Machine</title>
+</head>
+
+<body>
+    <div id="mainScreen">
+        <h1>ATM Machine currency distribution.</h1>
+
+        <form action="" onsubmit="countCurrency(event)">
+            <h2> Enter the amount </h2>
+            <input type="number" name="amount" id="amount" placeholder="Enter the amount" required="required">
+
+            <h3>Select your preferd currency note</h3>
+            <div id="radios">
+                <input type="radio" name="note" id="500" value="500" checked>
+                <label for="500">500</label>
+
+                <input type="radio" name="note" id="100" value="100">
+                <label for="100">100</label>
+
+                <input type="radio" name="note" id="50" value="50">
+                <label for="50">50</label>
+
+                <input type="radio" name="note" id="20" value="20">
+                <label for="20">20</label>
+
+                <input type="radio" name="note" id="10" value="10">
+                <label for="10">10</label>
+
+                <input type="radio" name="note" id="5" value="5">
+                <label for="5">5</label>
+
+                <input type="radio" name="note" id="1" value="1">
+                <label for="1">1</label>
+
+            </div>
+            <button class="btn" type="submit">Get notes</button>
+        </form>
+    </div>
+    <div id="resultScreen" style="display: none;">
+        <h1>The total number of currency notes</h1>
+    </div>
+</body>
+
+</html>
