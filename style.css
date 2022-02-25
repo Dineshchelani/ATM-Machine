@@ -1,6 +1,6 @@
 
 #mainScreen,#resultScreen{
-    width: 40%;
+    width: 50%;
     margin: auto;
     box-shadow: 0px 0px 10px 1px rgba(2, 26, 247, 0.247);
 }
@@ -26,11 +26,11 @@ label {
     padding: 8px 15px;
     font-size: 20px;
     font-weight: bold;
-    border: 3px solid #021bf7b3;
+    border: 2px solid #021bf7b3;
     border-radius: 4px;
 }
 input[type="radio"]:checked + label {
-    border: 5px inset rgb(255, 0, 0) !important;
+    border: 4px inset rgb(255, 0, 0) !important;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 #radios label:hover {
